@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Position</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            border: black 1px solid;
+            margin: 0px auto;
+        }
+        .satu{
+            background-color: lightcoral;
+        }
+        .dua{
+            background-color: lightgoldenrodyellow;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .tiga{
+            background-color: lightgreen;
+        }
+        .wrapper{
+            width: 800px;
+            height: 800px;
+            position: relative;
+            border: purple 10px solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="satu"></div>
+        <div class="dua"></div>
+        <div class="tiga"></div>
+    </div>
+</body>
+</html>

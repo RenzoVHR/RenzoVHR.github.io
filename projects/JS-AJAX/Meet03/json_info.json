@@ -1,0 +1,7 @@
+{
+    "code" : 123456789,
+    "origin" : "PLM",
+    "destination" : "JKT",
+    "duration" : 45,
+    "passanger" : ["Dean", "Trisha", "Fabian"]
+}

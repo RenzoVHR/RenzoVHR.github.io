@@ -1,0 +1,116 @@
+body {
+    background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* .title {
+    text-align: center;
+    margin-top: 50px;
+} */
+
+.search-container {
+    display: flex;
+    margin: 0 auto;
+}
+
+.poke-logo {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.btn-search {
+    border: none;
+    background-color: #FFCE31;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    margin-left: -15px;
+    transition: all ease 0.2s;
+}
+
+.btn-search:hover {
+    background-color: #fac824;
+}
+
+.btn-search:focus {
+    outline: none !important;
+}
+
+input:focus {
+    border: 1px solid #FFCE31 !important;
+    box-shadow: none !important;
+}
+
+.pokemon-card {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+    border-radius: 20px !important;
+    margin-top: 30px;
+}
+
+.card-type {
+    display: flex;
+}
+
+.card-type p {
+    margin-right: 15px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    padding: 6px 10px 6px 10px;
+    font-size: 14px;
+}
+
+.card-head {
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-ability {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-ability p {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    padding: 6px 10px 6px 10px;
+    font-size: 14px;
+}
+
+.card-detail-two {
+    display: flex;
+}
+
+.card-top-detail {
+    margin-bottom: 20px;
+}
+
+
+.type {
+    text-transform: capitalize;
+}
+
+.error {
+    margin-top: 0px;
+    margin: 20px auto;
+}

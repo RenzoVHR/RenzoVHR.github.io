@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Dex</title>
+    <style>
+        h2, p{
+            text-transform:capitalize;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+        }
+        .text-center{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .text-center img{
+            width: 15rem;
+        }
+        .pokedeximg{
+            width: 30rem;
+            margin-bottom: 1.5rem;
+        }
+        .form-control{
+            width: 14rem;
+        }
+    </style>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <img class="pokedeximg" src="https://i.pinimg.com/originals/bd/cd/20/bdcd20f5411ee5785889542d303ad4cb.png"/>
+        <div class="search-container" >
+            <input type="text" class="form-control" id="search" placeholder="Type pokemon name you want to find"/>
+            <button id="search-btn">search</button>
+        </div>
+        <div class="card text-center" id="detailPokemon">
+            <h2 class="color" id="namaPokemon"></h2>
+            <img id="img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACxCAMAAAAh3/JWAAAAA1BMVEX//v++3yqJAAAASElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIALA8UNAAFusnLHAAAAAElFTkSuQmCC" alt="Sorry belum keupdate"/>
+            <div id="color" class="card-type">
+                <p class="type" id="tipePokemon"></p>
+                <p id="darahPokemon"></p>
+                <p id="xpPokemon"></p>
+                <p id="beratPokemon"></p>
+                <p id="tinggiPokemon"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

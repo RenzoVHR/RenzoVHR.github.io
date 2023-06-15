@@ -383,6 +383,7 @@ section.gradient-header {
         /* content */
             .content{
                 overflow-x: hidden;
+				justify-content: space-between;
             }
 
             .content p{
@@ -393,7 +394,7 @@ section.gradient-header {
                 .content .content-fill{
                     flex-direction: column-reverse;
                     align-items: center;
-					padding: 2% 0 	;
+					padding: 4% 0 	;
                 }
 
 				.content .content-fill i{
@@ -430,24 +431,28 @@ section.gradient-header {
 
 	@media screen and (max-width : 759px) {
 
+		.about{
+			height: auto;
+		}
+
 		.content-text h2{
 			font-size: 2rem;
 		}
 
 		.text h1{
-			font-size: 3.25rem;
+			font-size: 3rem;
 		}
 
 		.about .aboutMalamPerak .aboutMalamPerak-text p{
-			font-size: 1.2rem;
+			font-size: 1rem;
 		}
 
 		.content h1{
-			font-size: 3rem;
+			font-size: 2.8rem;
         }
 
 		.about .profile img{
-			width: 20rem;
+			width: 18rem;
 			border-radius: 20rem;
 		}
 
@@ -456,11 +461,12 @@ section.gradient-header {
 		}
 
 		.content .content-fill .content-text p{
-			font-size: 1.1rem;
+			font-size: 1rem;
+			padding-bottom: 10px;
 		}
 
 		.content .content-fill i{
-			font-size: 230px;
+			font-size: 220px;
 		}
 
         header nav ul.menu-nav{

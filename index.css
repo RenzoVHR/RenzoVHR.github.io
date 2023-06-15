@@ -103,6 +103,10 @@ h1{
         z-index: 3;
     }
 
+	.logo img{
+		border-radius: 1000px;
+	}
+
 	@keyframes nav-hover {
 		0% {
 			color:white;

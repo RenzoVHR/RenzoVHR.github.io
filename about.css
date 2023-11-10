@@ -21,9 +21,7 @@ header{
 }
 
 header nav {
-    margin-top: 15px;
-    position: fixed;
-    z-index: 1;
+    position: relative;
     background: white;
     display: flex;
     width: 90vw;
@@ -64,19 +62,6 @@ header nav .logo {
 header nav .logo img{
     height: 4rem;
     display: flex;
-}
-
-.heading{
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-}
-
-.heading h1{
-    padding-top: 175px;
-    color: #D01D1D;
-    font-size: 50px;
-    margin-left: 5vw;
 }
 
 .about {
@@ -126,38 +111,4 @@ header nav .logo img{
     text-align: left;
     width: 40vw;
     font-size: 35px;
-}
-
-.tujuan{
-    height:55vh;
-    width: 100vw;
-    margin-top: 30vh;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
-    flex-direction: column;
-}
-.tujuan .judul{
-    display: flex;
-    align-content: flex-start;
-}
-
-.tujuan .judul h1{
-    font-size: 50px;
-    color: #D01D1D;
-}
-
-.tujuan .isi{
-    display: flex;
-    height: 30vh;
-    align-content: flex-start;
-    justify-content: space-around;
-    flex-direction: column;
-}
-
-.tujuan .isi h2{
-    color: white;
-    font-size: 35px;
-    margin-right: 150px;
 }
